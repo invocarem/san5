@@ -199,6 +199,31 @@ Mounting `D:` as the same folder with `-t cdrom` satisfies the “insert disc”
 
 ---
 
+## OpenClaw workspace
+
+This repo is checked in from `~/code/san5` and cloned for agents at:
+
+```text
+~/.openclaw/workspace/projects/san5/
+```
+
+OpenClaw skill (instructions only):
+
+```text
+~/.openclaw/workspace/skills/san5/SKILL.md
+```
+
+After pulling updates in the workspace clone:
+
+```bash
+cd ~/.openclaw/workspace/projects/san5
+./start.sh
+```
+
+Use skill **san5** for DOSBox clicks (`click-dosbox.sh`); use **computer-use** for generic screenshots/keys on `DISPLAY=:99`.
+
+---
+
 ## License / game files
 
 Game assets are not included in this repo. You must own/install 三國志V separately under `SAN5` path above.
